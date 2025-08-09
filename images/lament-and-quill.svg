@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0.2" y2="0.8">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="1" stop-color="#1a1a1a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#CFB53B" stroke-width="3" opacity="0.6" rx="14"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <text x="600" y="300" font-size="48" fill="#CFB53B" font-weight="700">Lament &amp; Quill</text>
+    <text x="600" y="350" font-size="22" fill="#e9e9e9" opacity="0.9">Project preview • Click the external link icon to open the live site</text>
+  </g>
+</svg>
