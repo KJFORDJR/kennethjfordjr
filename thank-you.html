@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You - Message Sent</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <style>
+    .thankyou-wrapper { min-height: 70vh; display: grid; place-items: center; padding: 2rem; }
+    .thankyou-card { background: #0b0b0b; border: 1px solid rgba(207,181,59,0.25); border-radius: 14px; padding: 2rem 2.25rem; max-width: 680px; width: 100%; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.35); }
+    .thankyou-card h1 { margin: 0 0 0.5rem; font-size: 2rem; color: #CFB53B; }
+    .thankyou-card p { margin: 0.25rem 0 1.25rem; color: #e9e9e9; line-height: 1.6; opacity: 0.92; }
+    .thankyou-actions { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; margin-top: 0.5rem; }
+    .btn-inline { display: inline-block; padding: 0.75rem 1.1rem; border-radius: 10px; text-decoration: none; }
+    .btn-gold { background: #B1810B; color: #fff; border: 1px solid rgba(0,0,0,0.15); }
+    .btn-outline { background: transparent; color: #CFB53B; border: 1px solid rgba(207,181,59,0.35); }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo"><a href="#home">Kenneth Ford</a></div>
+      <!-- minimal header for this standalone page -->
+    </div>
+  </nav>
+
+  <main class="thankyou-wrapper">
+    <section class="thankyou-card">
+      <h1>Thank you!</h1>
+      <p>Your message has been sent successfully. I’ll get back to you soon.</p>
+      <div class="thankyou-actions">
+        <a class="btn-inline btn-gold" href="./#home">Back to Home</a>
+        <a class="btn-inline btn-outline" href="./#contact">Send Another Message</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Kenneth Ford. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
